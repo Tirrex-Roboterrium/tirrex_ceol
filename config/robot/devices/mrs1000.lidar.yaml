@@ -5,13 +5,12 @@ driver:
   port: "2112"
 configuration:
   type: sick
-  model: lms151
+  model: mrs1000
   rate: 50
-  resolution: 0.5
+  resolution: 0.25
 geometry:
   parent_link: "base_link"
-  xyz: [2.02, 0.0, 0.34]
-  rpy: [0.0, 0.0, 0.0]
+  xyz: [0.88, 0.0, 0.8635]
+  rpy: [0.0, 15.0, 0.0]
 records:
-  scan: true
-  cloud: false
+  cloud: true
