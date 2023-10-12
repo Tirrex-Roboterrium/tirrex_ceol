@@ -1,4 +1,5 @@
 name: "imu"
+namespace: "base"
 driver:
   pkg: "xsens_driver"
   #  pkg: "bluespace_ai_xsens_mti_driver"
