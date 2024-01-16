@@ -3,10 +3,10 @@ remote_controller:
   available_mode: all
 mrs1000:
   type: lidar
-  available_mode: all
+  available_mode: none
 ublox:
   type: gps
-  available_mode: none
+  available_mode: all
 xsens:
   type: imu
   available_mode: all
