@@ -117,9 +117,9 @@ repositories:
     type: git
     url: git@gitlab-ssh.irstea.fr:tirrex/tirrex_demo.git
     version: main
-  romea_ros2/demos/tirrex/tirrex_adap2e:
+  romea_ros2/demos/tirrex/tirrex_ceol:
     type: git
-    url: git@gitlab-ssh.irstea.fr:tirrex/adap2e.git
+    url: git@gitlab-ssh.irstea.fr:romea_projects/tirrex/ceol.git
     version: main
 
   third_party/serial:
