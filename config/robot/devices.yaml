@@ -4,7 +4,7 @@ remote_controller:
 mrs1000:
   type: lidar
   available_mode: none
-ublox:
+septentrio:
   type: gps
   available_mode: all
 xsens:
