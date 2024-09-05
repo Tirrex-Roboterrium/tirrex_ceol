@@ -1,4 +1,5 @@
 sampling_period: 10.0
+#one_steering_equivalence: true
 
 # configuration of longitudinal control
 longitudinal_control:
@@ -12,6 +13,18 @@ lateral_control:
       kp: -0.5
       kd: -1.0
     maximal_omega_d: 0.5
+  classic:
+    gains:
+      front_kd: 1.7
+  predictive:
+    gains:
+      front_kd: 0.4
+    prediction:
+      horizon: 10
+      a0: 0.1642
+      a1: 0.1072
+      b1: 1.0086
+      b2: -0.2801
 
 # control setpoint
 setpoint:
